@@ -47,7 +47,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
-                            android:background="@drawable/break_1"
+                            android:background="@drawable/resource_break"
                             android:gravity="center"
                             android:orientation="vertical"
                             android:padding="6dp">
