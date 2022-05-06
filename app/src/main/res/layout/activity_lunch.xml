@@ -55,7 +55,7 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/rice01" />
+                                android:src="@drawable/rice1" />
 
                             <Button
                                 android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/rice02" />
+                                android:src="@drawable/rice2" />
 
                             <Button
                                 android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/rice03" />
+                                android:src="@drawable/rice3" />
 
                             <Button
                                 android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/rice04" />
+                                android:src="@drawable/rice4" />
 
                             <Button
                                 android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/rice05" />
+                                android:src="@drawable/rice5" />
 
                             <Button
                                 android:layout_width="wrap_content"
