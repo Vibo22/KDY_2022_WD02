@@ -4,30 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".roti">
-
+    tools:context=".yellowrice2">
 
 
 
     <ImageView
-        android:id="@+id/imageView7"
-        app:srcCompat="@drawable/ro2"
+        android:id="@+id/imageView9"
+        app:srcCompat="@drawable/rice4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="420dp"
-        android:layout_marginTop="-110dp"
+        android:layout_marginTop="-220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"/>
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="335dp"
         android:layout_height="62dp"
-        android:text="@string/kurakkan_roti_lkr_110_00"
+        android:text="@string/traditional_yellow_rice_with_curries_lkr_590_00"
         android:textAlignment="center"
         android:textColorHighlight="#100F0F"
         android:textColor="@color/black"
@@ -44,7 +43,7 @@
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:backgroundTint="#009688"
-        android:text="@string/order_now9"
+        android:text="@string/order_now11"
         android:onClick="showAlert"
         app:cornerRadius="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,7 +63,7 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="127dp"
-        android:hint="@string/select9"
+        android:hint="@string/select11"
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,6 +80,5 @@
 
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
