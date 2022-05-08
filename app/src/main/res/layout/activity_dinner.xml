@@ -62,7 +62,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="special"
-                                android:text="@string/special_rice_with_7_curries"
+                                android:text="special rice with 7 curries"
                                 android:textSize="12dp"
                                 app:cornerRadius="15sp"
                                 tools:ignore="OnClick,UsingOnClickInXml" />
@@ -99,7 +99,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="banana"
-                                android:text="@string/banana_leave_rice_and_curries"
+                                android:text="banana leave rice and curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -133,7 +133,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="yellowrice3"
-                                android:text="@string/yellow_rice_with_special_curries"
+                                android:text="yellow rice with special curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -169,7 +169,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="whiterice"
-                                android:text="@string/traditional_white_rice_with_curries"
+                                android:text="traditional white rice with curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -205,7 +205,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="cashew"
-                                android:text="@string/cashew_with_rice_and_curries"
+                                android:text="cashew with rice and curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 

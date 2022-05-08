@@ -60,7 +60,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="breakfast"
-                                android:text="@string/breakfast"
+                                android:text="Breakfast"
                                 app:cornerRadius="15sp" />
 
                         </LinearLayout>
@@ -90,7 +90,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="lunch"
-                                android:text="@string/lunch"
+                                android:text="Lunch"
                                 app:cornerRadius="15sp" />
 
                         </LinearLayout>
@@ -121,7 +121,7 @@
                                 android:backgroundTint="@color/teal_700"
 
                                 android:onClick="dinner"
-                                android:text="@string/dinner"
+                                android:text="Dinner"
                                 app:cornerRadius="15sp" />
 
                         </LinearLayout>

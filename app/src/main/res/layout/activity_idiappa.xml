@@ -27,7 +27,7 @@
         android:id="@+id/textView3"
         android:layout_width="335dp"
         android:layout_height="62dp"
-        android:text="@string/kurakkan_idiappa_lkr_250_00"
+        android:text="kurakkan idiappa LKR 250_00"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHighlight="#100F0F"
@@ -44,7 +44,7 @@
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:backgroundTint="#009688"
-        android:text="@string/order_now4"
+        android:text="ORDER NOW"
         android:onClick="showAlert"
         app:cornerRadius="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,7 +64,11 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="127dp"
-        android:hint="@string/select18"
+
+        android:hint="Select"
+
+       
+
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
