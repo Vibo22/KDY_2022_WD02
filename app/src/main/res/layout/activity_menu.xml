@@ -54,7 +54,7 @@
 
 
                             <Button
-                                android:id="@+id/button"
+                                android:id="@+id/breakfast"
                                 android:layout_width="160dp"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="12dp"
@@ -84,7 +84,7 @@
 
 
                             <Button
-                                android:id="@+id/button2"
+                                android:id="@+id/lunch"
                                 android:layout_width="160dp"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="12dp"
@@ -114,7 +114,7 @@
 
 
                             <Button
-                                android:id="@+id/button3"
+                                android:id="@+id/dinner"
                                 android:layout_width="160dp"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="12dp"

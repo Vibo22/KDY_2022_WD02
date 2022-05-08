@@ -25,7 +25,11 @@
         android:id="@+id/textView3"
         android:layout_width="335dp"
         android:layout_height="62dp"
+
         android:text="Cashew withrice and curries"
+
+       
+
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHighlight="#100F0F"

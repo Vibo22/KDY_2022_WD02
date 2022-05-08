@@ -9,6 +9,82 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineApp">
+
+        <activity android:name=".editPackages"/>
+        <activity android:name=".addPackages" />
+        <activity android:name=".List" />
+
+
+
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+
+        <activity
+            android:name=".rice1"
+            android:exported="false" />
+        <activity
+            android:name=".yellowrice2"
+            android:exported="false" />
+        <activity
+            android:name=".garlic"
+            android:exported="false" />
+        <activity
+            android:name=".cuminwhite"
+            android:exported="false" />
+        <activity
+            android:name=".yellowrice1"
+            android:exported="false" />
+        <activity
+            android:name=".special"
+            android:exported="false" />
+        <activity
+            android:name=".cashew"
+            android:exported="false" />
+        <activity
+            android:name=".whiterice"
+            android:exported="false" />
+        <activity
+            android:name=".yellowrice3"
+            android:exported="false" />
+        <activity
+            android:name=".banana"
+            android:exported="false" />
+        <activity
+            android:name=".idiappa"
+            android:exported="false" />
+        <activity
+            android:name=".pittu"
+            android:exported="false" />
+        <activity
+            android:name=".kiribath"
+            android:exported="false" />
+        <activity
+            android:name=".rathu"
+            android:exported="false" />
+        <activity
+            android:name=".roti"
+            android:exported="false" />
+        <activity
+            android:name=".dinner"
+            android:exported="false" />
+        <activity
+            android:name=".lunch"
+            android:exported="false" />
+        <activity
+            android:name=".breakfast"
+            android:exported="false" />
+
+
+
+
+
+        <activity
+            android:name=".MainPackage"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

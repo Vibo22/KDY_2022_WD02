@@ -200,7 +200,11 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="rathu"
+
                                 android:text="rathu bath with curries"
+
+                              
+
                                 android:textSize="13sp"
                                 app:cornerRadius="15sp" />
 

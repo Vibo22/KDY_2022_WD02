@@ -22,9 +22,9 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
 
-        button=findViewById(R.id.button);
-        button2=findViewById(R.id.button2);
-        button3=findViewById(R.id.button3);
+        button=findViewById(R.id.breakfast);
+        button2=findViewById(R.id.lunch);
+        button3=findViewById(R.id.dinner);
 
         button.setOnClickListener(view -> {
             Intent intent=new Intent(Menu.this,breakfast.class);

@@ -53,11 +53,12 @@
                                 android:src="@drawable/home4"/>
 
                             <Button
+                                android:id="@+id/home"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
-                                android:text="Home"
+                                android:text="@string/home"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -84,11 +85,12 @@
                                 android:src="@drawable/meenu"/>
 
                             <Button
+                                android:id="@+id/menu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
-                                android:text="Menu"
+                                android:text="@string/menu"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -115,11 +117,12 @@
                                 android:src="@drawable/table1"/>
 
                             <Button
+                                android:id="@+id/table"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
-                                android:text="Table"
+                                android:text="@string/table"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -147,6 +150,7 @@
                                 android:src="@drawable/spec"/>
 
                             <Button
+                                android:id="@+id/offer"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
@@ -178,11 +182,12 @@
                                 android:src="@drawable/info"/>
 
                             <Button
+                                android:id="@+id/info"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
-                                android:text="Info"
+                                android:text="@string/info"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
                         </LinearLayout>

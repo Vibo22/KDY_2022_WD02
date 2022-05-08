@@ -26,7 +26,11 @@
         android:id="@+id/textView3"
         android:layout_width="335dp"
         android:layout_height="62dp"
+
         android:text="Kurakkanpittu LKR 170.00"
+
+       
+
         android:textAlignment="center"
         android:textColorHighlight="#100F0F"
         android:textColor="@color/black"
