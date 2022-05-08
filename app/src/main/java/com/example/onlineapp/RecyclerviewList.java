@@ -23,7 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class RecyclerviewList extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    com.example.crud_activity.PostAdapter adapter;
+    com.example.onlineapp.PostAdapter adapter;
     Button btn;
 
     @Override
@@ -34,12 +34,12 @@ public class RecyclerviewList extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerview_id);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        FirebaseRecyclerOptions<com.example.crud_activity.PostModel> options =
-                new FirebaseRecyclerOptions.Builder<com.example.crud_activity.PostModel>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), com.example.crud_activity.PostModel.class)
+        FirebaseRecyclerOptions<com.example.onlineapp.PostModel> options =
+                new FirebaseRecyclerOptions.Builder<com.example.onlineapp.PostModel>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), com.example.onlineapp.PostModel.class)
                         .build();
 
-        adapter = new com.example.crud_activity.PostAdapter(options, this);
+        adapter = new com.example.onlineapp.PostAdapter(options, this);
         recyclerView.setAdapter(adapter);
     }
 

@@ -33,7 +33,7 @@ public class Recyclerviewcustomer extends AppCompatActivity {
 
         FirebaseRecyclerOptions<com.example.onlineapp.PostCustomer> options =
                 new FirebaseRecyclerOptions.Builder<com.example.onlineapp.PostCustomer>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), com.example.crud_activity.PostCustomer.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), com.example.onlineapp.PostCustomer.class)
                         .build();
 
 
