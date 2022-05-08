@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".MenuAdd">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/imgadd1"
+            android:id="@+id/btn_courseImagBtn"
+            android:onClick="imageButton"
+            tools:ignore="OnClick">
+        </ImageButton>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Menu ID"
+            android:id="@+id/edt_MenuId">
+
+        </EditText>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Menu Name"
+            android:id="@+id/edt_MenuName">
+
+        </EditText>
+
+        <EditText
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Menu price"
+            android:id="@+id/edt_MenuPrice">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_addMenu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corners"
+                android:enabled="true"
+                android:text="Add Menu"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:cornerRadius="25sp" />
+
+            <Button
+                android:id="@+id/btn_showMenu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corners"
+                android:onClick="btnShowMenu"
+                android:text="Show Menu"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                tools:ignore="OnClick">
+
+            </Button>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Menucount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corners"
+            android:onClick="Btnmenucount"
+            android:text="Menu Count"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:cornerRadius="25sp" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

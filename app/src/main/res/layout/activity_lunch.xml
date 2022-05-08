@@ -63,7 +63,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="yellowrice1"
-                                android:text="@string/traditonal_yellow_rice_with_curries"
+                                android:text="traditonal yellow rice with curries"
                                 android:textSize="12dp"
                                 app:cornerRadius="15sp" />
 
@@ -99,7 +99,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="cuminwhite"
-                                android:text="@string/cumin_white_rice_with_curries"
+                                android:text="cumin white rice with curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -133,7 +133,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="garlic"
-                                android:text="@string/garlic_ghee_rice_with_curries"
+                                android:text="garlic ghee rice with curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -169,7 +169,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="yellowrice2"
-                                android:text="@string/traditional_yellow_rice_with_curries"
+                                android:text="traditional yellow rice with curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 
@@ -205,7 +205,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="rice1"
-                                android:text="@string/traditional_rice_and_curries"
+                                android:text="traditional rice and curries"
                                 android:textSize="12sp"
                                 app:cornerRadius="15sp" />
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/blue01"
+    app:cardElevation="38dp"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true">
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="318dp"
+        android:layout_height="219dp"
+        android:orientation="vertical" />
+
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/imgadd2"
+        android:id="@+id/image_ViewCourse" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:src="@drawable/edit_image"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/image_edit" />
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/delete1"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/image_delete" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/tv_menuIdRetrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu ID"
+            android:textColor="#0B0A0A"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tv_menunameRetrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Name"
+            android:textColor="#0B0A0A"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tv_menupriceRetrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Price"
+            android:textColor="#0E0E0E"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+

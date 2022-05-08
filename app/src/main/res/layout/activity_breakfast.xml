@@ -61,7 +61,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="roti"
-                                android:text="@string/kurakkan_roti"
+                                android:text="Kurakkan roti"
                                 app:cornerRadius="15sp" />
 
 
@@ -96,7 +96,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="pittu"
-                                android:text="@string/kurakkan_pittu"
+                                android:text="kurakkan pittu"
                                 app:cornerRadius="15sp" />
 
                         </LinearLayout>
@@ -129,7 +129,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="idiappa"
-                                android:text="@string/kurakkan_idiappa"
+                                android:text="kurakkan idiappa"
                                 android:textSize="14sp"
                                 app:cornerRadius="15sp" />
 
@@ -165,7 +165,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="kiribath"
-                                android:text="@string/imbul_kiribath"
+                                android:text="imbul kiribath"
                                 app:cornerRadius="15sp" />
 
 
@@ -200,7 +200,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="rathu"
-                                android:text="@string/rathu_bath_with_curries"
+                                android:text="rathu bath with curries"
                                 android:textSize="13sp"
                                 app:cornerRadius="15sp" />
 
