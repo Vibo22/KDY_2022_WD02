@@ -3,9 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_admin_panel.xml" value="0.152" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_banana.xml" value="0.264" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_breakfast.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_cashew.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_dinner.xml" value="0.264" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_idiappa.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_kiribath.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_login_signup.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_lunch.xml" value="0.15260416666666668" />
         <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_main_package.xml" value="0.25" />
         <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_main_package2.xml" value="0.25" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_pittu.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_rathu.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_rice1.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_roti.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_special.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_whiterice.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_yellowrice1.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_yellowrice2.xml" value="0.15260416666666668" />
+        <entry key="..\:/Year 2 ,Sem2/new_clone/app/src/main/res/layout/activity_yellowrice3.xml" value="0.15260416666666668" />
       </map>
     </option>
   </component>

@@ -19,9 +19,9 @@ public class AdminPanel extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_panel);
 
-        Paper.init(this);
 
-        PackageAdmin = (Button) findViewById(R.id.addpacakage_btn);
+
+        PackageAdmin = (Button) findViewById(R.id.breakfast);
         PackageAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +31,7 @@ public class AdminPanel extends AppCompatActivity {
             }
         });
 
-        MenuAdmin = (Button) findViewById(R.id.Menu_btn);
+        MenuAdmin = (Button) findViewById(R.id.lunch);
         MenuAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,7 +40,7 @@ public class AdminPanel extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+/*
         TableAdmin = (Button) findViewById(R.id.Table_btn);
         TableAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +49,7 @@ public class AdminPanel extends AppCompatActivity {
                 intent.putExtra("Table Admin", "Table");
                 startActivity(intent);
             }
-        });
+        });*/
 
 
     }

@@ -26,7 +26,7 @@
         android:id="@+id/textView3"
         android:layout_width="335dp"
         android:layout_height="62dp"
-        android:text="@string/rathu_bath_with_curries_lkr_320_00"
+        android:text="Rathu bath with curries LKR 320.00"
         android:textAlignment="center"
         android:textColorHighlight="#100F0F"
         android:textColor="@color/black"

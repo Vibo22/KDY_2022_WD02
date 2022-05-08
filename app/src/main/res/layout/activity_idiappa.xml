@@ -64,7 +64,7 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="127dp"
-        android:hint="@string/select4"
+        android:hint="@string/select18"
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

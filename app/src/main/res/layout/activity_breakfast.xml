@@ -200,7 +200,7 @@
                                 android:layout_marginTop="12dp"
                                 android:backgroundTint="@color/teal_700"
                                 android:onClick="rathu"
-                                android:text="@string/rathu_bath_with_curries"
+                                android:text="@string/bathu_bath_with_curries"
                                 android:textSize="13sp"
                                 app:cornerRadius="15sp" />
 
