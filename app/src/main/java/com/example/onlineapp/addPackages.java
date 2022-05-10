@@ -30,6 +30,8 @@ import com.squareup.picasso.Picasso;
 
 public class addPackages extends AppCompatActivity {
 
+   // Variable declare
+    
     Button choose,add;
     private static final int PICK_IMAGE_REQUEST=1;
     ImageView imgView;
