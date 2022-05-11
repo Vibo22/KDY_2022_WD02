@@ -47,8 +47,12 @@ public class packageAdapter extends FirebaseRecyclerAdapter<Packages,packageAdap
                         }
                     });
 
-
+                     // delete packages 
+                     
                     holder.delete.setOnClickListener(new View.OnClickListener() {
+                    
+                    // Show Alert box 
+                    
                         @Override
                         public void onClick(View view) {
                             AlertDialog.Builder builder=new AlertDialog.Builder(holder.img.getContext());
