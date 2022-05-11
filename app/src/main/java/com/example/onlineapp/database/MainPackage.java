@@ -15,6 +15,8 @@ import com.example.onlineapp.R;
 
 public class MainPackage extends AppCompatActivity {
 
+    // Add two buttons 
+    
     Button addBtn,listBtn;
 
     @Override
