@@ -1,12 +1,12 @@
-package com.example.onlineapp;
+package com.example.onlineapp.database;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.widget.TextView;
 
+import com.example.onlineapp.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

@@ -1,30 +1,17 @@
-package com.example.onlineapp;
+package com.example.onlineapp.database;
 
-import com.google.android.gms.common.data.SingleRefDataBufferIterator;
-
-public class PostModel {
-
-    String menuId;
+public class PostCustomer {
     String menuName;
     String menuPrice;
     String image;
 
-    public PostModel() {
+    public PostCustomer() {
     }
 
-    public PostModel(String menuId, String menuName, String menuPrice, String image) {
-        this.menuId = menuId;
+    public PostCustomer(String menuName, String menuPrice, String image) {
         this.menuName = menuName;
         this.menuPrice = menuPrice;
         this.image = image;
-    }
-
-    public String getMenuId() {
-        return menuId;
-    }
-
-    public void setMenuId(String menuId) {
-        this.menuId = menuId;
     }
 
     public String getMenuName() {

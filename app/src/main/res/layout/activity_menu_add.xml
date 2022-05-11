@@ -7,7 +7,7 @@
     app:cardElevation="15dp"
     app:cardCornerRadius="20dp"
     app:cardUseCompatPadding="true"
-    tools:context=".MenuAdd">
+    tools:context=".database.MenuAdd">
 
     <LinearLayout
         android:layout_margin="5dp"

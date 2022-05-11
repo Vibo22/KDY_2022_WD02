@@ -1,4 +1,4 @@
-package com.example.onlineapp;
+package com.example.onlineapp.database;
 
 import static android.app.ActivityOptions.makeSceneTransitionAnimation;
 
@@ -14,9 +14,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.onlineapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -130,14 +130,14 @@ public class MenuAdd extends AppCompatActivity {
     }
 
     public void btnShowMenu(View view) {
-        Intent i = new Intent(this,Recyclerviewcustomer.class);
+        Intent i = new Intent(this, Recyclerviewcustomer.class);
         Bundle b = makeSceneTransitionAnimation(this).toBundle();
         startActivity(i, b);
 
     }
 
     public void Btnmenucount(View view){
-        Intent i=new Intent(this,MenuCount.class);
+        Intent i=new Intent(this, MenuCount.class);
         startActivity(i);
     }
 }

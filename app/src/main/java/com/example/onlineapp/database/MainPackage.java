@@ -1,4 +1,4 @@
-package com.example.onlineapp;
+package com.example.onlineapp.database;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.onlineapp.List;
+import com.example.onlineapp.R;
 
 public class MainPackage extends AppCompatActivity {
 
@@ -28,7 +31,7 @@ public class MainPackage extends AppCompatActivity {
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainPackage.this,addPackages.class);
+                Intent intent=new Intent(MainPackage.this, addPackages.class);
                 startActivity(intent);
             }
         });
@@ -36,7 +39,7 @@ public class MainPackage extends AppCompatActivity {
         listBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainPackage.this,List.class);
+                Intent intent=new Intent(MainPackage.this, List.class);
                 startActivity(intent);
             }
         });

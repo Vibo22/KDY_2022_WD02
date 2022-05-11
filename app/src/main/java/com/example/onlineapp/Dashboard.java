@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.example.onlineapp.database.Packages;
+
 public class Dashboard extends AppCompatActivity {
 
 
@@ -33,10 +35,21 @@ public class Dashboard extends AppCompatActivity {
         });
 
         offer.setOnClickListener(view -> {
-            Intent intent=new Intent(Dashboard.this,MainPackage.class);
+            Intent intent=new Intent(Dashboard.this, Packages.class);
             startActivity(intent);
         });
 
+        home.setOnClickListener(view -> {
+            Intent intent=new Intent(Dashboard.this,AdminPanel.class);
+            startActivity(intent);
+        });
+
+        /*
+        table.setOnClickListener(view -> {
+            Intent intent=new Intent(Dashboard.class,Table.class);
+            startActivity(intent);
+        });
+*/
 
     }
 }

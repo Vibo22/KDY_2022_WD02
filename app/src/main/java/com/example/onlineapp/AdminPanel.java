@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.onlineapp.database.MainPackage;
+import com.example.onlineapp.database.MenuAdd;
+
 public class AdminPanel extends AppCompatActivity {
 
     private Button PackageAdmin;
@@ -25,8 +28,8 @@ public class AdminPanel extends AppCompatActivity {
         PackageAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AdminPanel.this, addPackages.class);
-                intent.putExtra("Package Admin", "addPackages");
+                Intent intent = new Intent(AdminPanel.this, MainPackage.class);
+                //intent.putExtra("Package Admin", "addPackages");
                 startActivity(intent);
             }
         });
@@ -35,8 +38,8 @@ public class AdminPanel extends AppCompatActivity {
         MenuAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AdminPanel.this, Menu.class);
-                intent.putExtra("Menu Admin", "Menu");
+                Intent intent = new Intent(AdminPanel.this, MenuAdd.class);
+                //intent.putExtra("Menu Admin", "Menu");
                 startActivity(intent);
             }
         });

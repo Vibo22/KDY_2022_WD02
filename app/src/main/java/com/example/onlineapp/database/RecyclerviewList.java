@@ -1,29 +1,24 @@
-package com.example.onlineapp;
+package com.example.onlineapp.database;
 
 import static android.app.ActivityOptions.makeSceneTransitionAnimation;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
+import com.example.onlineapp.R;
+import com.example.onlineapp.database.PostAdapter;
+import com.example.onlineapp.database.PostModel;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class RecyclerviewList extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    com.example.onlineapp.PostAdapter adapter;
+    PostAdapter adapter;
     Button btn;
 
     @Override
@@ -34,12 +29,12 @@ public class RecyclerviewList extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerview_id);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        FirebaseRecyclerOptions<com.example.onlineapp.PostModel> options =
-                new FirebaseRecyclerOptions.Builder<com.example.onlineapp.PostModel>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), com.example.onlineapp.PostModel.class)
+        FirebaseRecyclerOptions<PostModel> options =
+                new FirebaseRecyclerOptions.Builder<PostModel>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Menu"), PostModel.class)
                         .build();
 
-        adapter = new com.example.onlineapp.PostAdapter(options, this);
+        adapter = new PostAdapter(options, this);
         recyclerView.setAdapter(adapter);
     }
 

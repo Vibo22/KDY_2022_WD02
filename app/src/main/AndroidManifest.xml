@@ -10,9 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineApp">
 
-        <activity android:name=".editPackages"/>
-        <activity android:name=".addPackages" />
+        <activity android:name=".database.editPackages"/>
+        <activity android:name=".database.addPackages" />
         <activity android:name=".List" />
+        <activity android:name=".AdminPanel" />
 
 
 
@@ -21,6 +22,9 @@
             android:exported="false" />
         <activity
             android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".database.MenuAdd"
             android:exported="false" />
 
         <activity
@@ -77,13 +81,27 @@
         <activity
             android:name=".breakfast"
             android:exported="false" />
+        <activity
+            android:name=".database.MenuCount"
+            android:exported="false" />
+        <activity
+            android:name=".database.Recyclerviewcustomer"
+            android:exported="false" />
+        <activity
+            android:name=".database.RecyclerviewList"
+            android:exported="false" />
+
+
+
+
+
 
 
 
 
 
         <activity
-            android:name=".MainPackage"
+            android:name=".database.MainPackage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
