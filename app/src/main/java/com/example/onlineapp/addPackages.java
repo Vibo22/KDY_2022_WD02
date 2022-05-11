@@ -57,6 +57,8 @@ public class addPackages extends AppCompatActivity {
         price = findViewById(R.id.insertPrice);
         progressBar = findViewById(R.id.insertProgressBar);
 
+       // database connection
+       
         mStorageRef= FirebaseStorage.getInstance().getReference("images");
         mDatabaseRef= FirebaseDatabase.getInstance().getReference("packages");
 
