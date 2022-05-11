@@ -36,6 +36,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class editPackages extends AppCompatActivity {
 
+    // variable declare
+    
     Button choose,add;
     private static final int PICK_IMAGE_REQUEST=1;
     ImageView imgView;
@@ -60,6 +62,8 @@ public class editPackages extends AppCompatActivity {
         price = (EditText)findViewById(R.id.editPrice);
         progressBar = findViewById(R.id.insertProgressBar1);
 
+      // database connection
+        
         mStorageRef= FirebaseStorage.getInstance().getReference("images");
         mDatabaseRef= FirebaseDatabase.getInstance().getReference("packages");
 
@@ -102,6 +106,8 @@ public class editPackages extends AppCompatActivity {
 
     }
 
+    // Update packages details
+    
     private void updateData() {
 
         if(img==""){
