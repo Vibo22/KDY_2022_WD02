@@ -42,6 +42,8 @@ public class addPackages extends AppCompatActivity {
     private StorageTask mUploadTask;
     ProgressBar progressBar;
 
+   //  insert Packages 
+   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -167,6 +169,8 @@ public class addPackages extends AppCompatActivity {
         }
     }
 
+   // clear the inserted data in the form
+   
     private void clearForm() {
         name.setText("");
         des.setText("");
