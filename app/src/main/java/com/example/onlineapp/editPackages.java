@@ -32,6 +32,8 @@ import com.squareup.picasso.Picasso;
 
 import org.jetbrains.annotations.NotNull;
 
+// variable declare 
+
 public class editPackages extends AppCompatActivity {
 
     Button choose,add;
@@ -100,6 +102,8 @@ public class editPackages extends AppCompatActivity {
 
     }
 
+    // Update Packages details
+    
     private void updateData() {
 
         if(img==""){
