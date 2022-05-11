@@ -1,3 +1,5 @@
+// Package adapter file
+
 package com.example.onlineapp.database;
 
 import android.annotation.SuppressLint;
