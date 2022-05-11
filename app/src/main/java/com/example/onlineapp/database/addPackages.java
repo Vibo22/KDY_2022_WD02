@@ -31,6 +31,8 @@ import com.squareup.picasso.Picasso;
 
 public class addPackages extends AppCompatActivity {
 
+   // variable declare
+    
     Button choose,add;
     private static final int PICK_IMAGE_REQUEST=1;
     ImageView imgView;
@@ -41,6 +43,8 @@ public class addPackages extends AppCompatActivity {
     private StorageTask mUploadTask;
     ProgressBar progressBar;
 
+    // insert packages 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +58,8 @@ public class addPackages extends AppCompatActivity {
         price = findViewById(R.id.insertPrice);
         progressBar = findViewById(R.id.insertProgressBar);
 
+      // database connection 
+        
         mStorageRef= FirebaseStorage.getInstance().getReference("images");
         mDatabaseRef= FirebaseDatabase.getInstance().getReference("packages");
 
@@ -165,7 +171,8 @@ public class addPackages extends AppCompatActivity {
             Toast.makeText(this,"No File Selected", Toast.LENGTH_SHORT).show();
         }
     }
-
+//   clear the inserted details in the form
+    
     private void clearForm() {
         name.setText("");
         des.setText("");
