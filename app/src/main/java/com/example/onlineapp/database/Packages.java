@@ -1,3 +1,5 @@
+// Package file
+
 package com.example.onlineapp.database;
 
 public class Packages {
