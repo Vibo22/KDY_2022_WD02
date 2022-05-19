@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineApp">
+        
+        <activity android:name=".database.editPackages"/>
+        <activity android:name=".database.addPackages" />
+        <activity android:name=".List" />
+        <activity android:name=".AdminPanel" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
